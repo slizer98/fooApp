@@ -5,11 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/loading.css">
+    <link rel="stylesheet" href="./assets/styles/login.css">
     <title>Food App</title>
 </head>
-<body class="body">
-    <section id="loading"></section>
-
+<body>
+    <header class="imagen-top">
+        <img class="imagen-top--logo" src="assets/images/logo.svg" alt="">
+        <img class="imagen-top--fondo" src="./assets/images/top-image.svg" alt="">
+        <div class="imagen-top--blur"></div>
+    </header>
+    <section class="login">
+        <div class="login-container">
+            <div class="login-buttons">
+                <a href="">Log In</a>
+                <a href="">Sing Up</a>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Enter email or username">
+                <input type="password">
+                <a href="Log In"></a>
+            </form>
+            <div>
+                <p>OR</p>
+                <div class="redes-sociales">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="loading" class="loader"></section>
     <script src="./assets/js/loading.js"></script>
 </body>
 </html>

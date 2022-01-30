@@ -5,7 +5,11 @@ const loading = document.getElementById('loading');
 eventListeners();
 function eventListeners(){
     document.addEventListener('DOMContentLoaded', cargarLoading);
+    setTimeout(()=>{
+        document.querySelector('.loader').classList.toggle('loader2');
+    },1500)
 }
+
 
 // Funciones
 function cargarLoading(){
