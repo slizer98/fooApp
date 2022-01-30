@@ -1,0 +1,32 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    height: 100vh;
+    height: 100%;
+    background-color: #FF0036;
+}
+.logo{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+.fruits{
+    overflow: hidden;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+.fruits img{
+    width: 397px;
+    position: absolute;
+    right: -80px;
+    bottom: -50px;
+}
